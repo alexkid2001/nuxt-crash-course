@@ -4,7 +4,7 @@
         <div class="collapse navbar-collapse">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item">
-                    <nuxt-link exact no-prefetch active-class="active" lass="nav-link" to="/">Home</nuxt-link>
+                    <nuxt-link exact no-prefetch active-class="active" class="nav-link" to="/">Home</nuxt-link>
                 </li>
                 <li class="nav-item">
                     <nuxt-link active-class="active" class="nav-link" to="/about">About</nuxt-link>
@@ -18,7 +18,6 @@
                 <li class="nav-item" v-else>
                     <nuxt-link @click.prevent="logout" class="nav-link" to="#">Logout</nuxt-link>
                 </li>
-
             </ul>
         </div>
     </nav>
